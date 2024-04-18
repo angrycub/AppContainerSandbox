@@ -11,7 +11,8 @@ int main(int argc, char *argv[])
     }else{
         RunContainerTests();
     }
-    getchar();
+    printf("Press the enter key to continue...\n");
+    int a = getchar(); // assign to a variable to quiet a linter whine
 
     return 0;
 }
